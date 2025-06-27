@@ -29,7 +29,6 @@ Analyze the effectiveness of different contact methods and campaign strategies i
 
 **Files Included**
 - `Marketing_Campaign_Effectiveness.ipynb` – Full notebook analysis
-- `Advanced_Marketing_Project_Interview_Questions.md` – Interview prep questions (optional)
 - `README.md` – Project overview
 
 **Author**  
