@@ -1,47 +1,38 @@
 # 📊 Marketing Campaign Effectiveness Project
 
-## 🎯 Objective
-Analyze the effectiveness of different contact methods and campaign strategies in driving term deposit subscriptions using Python, SQL logic, and hypothesis testing.
+**Objective**  
+Analyze the effectiveness of different contact methods and campaign strategies in driving term deposit subscriptions.
 
----
+**Dataset**  
+[Bank Marketing Dataset from Kaggle](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)
 
-## 📂 Dataset
-**Source:** [Bank Marketing Dataset on Kaggle](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)  
-*Note: Dataset is semicolon-delimited and includes customer profiles, call duration, contact method, and subscription outcome.*
+**Tools Used**  
+- Python (Pandas, NumPy, SciPy)
+- SQL (concepts implemented using Pandas)
+- Jupyter Notebook
+- Statistical Testing (Chi-Square)
 
----
+**Project Workflow**
+1. Load and clean the dataset using `pandas.read_csv()`
+2. Explore data with SQL-style aggregations using `groupby()` and `value_counts()`
+3. Calculate conversion rates by contact method and campaign month
+4. Run Chi-Square test to check for significance in contact method vs deposit outcome
+5. Present key business insights and recommendations
 
-## 🛠 Tools Used
-- **Python** (Pandas, SciPy, Matplotlib)
-- **Jupyter Notebook**
-- **SQL-style analysis** using groupby, count, sum
-- **Chi-square test** for statistical significance
+**Key Insights**
+- **Cellular** contact had a higher conversion rate (~14%) compared to **telephone** (~9%)
+- March and August were the most effective campaign months
+- Chi-Square test result (p < 0.05) shows that contact method has a statistically significant effect on conversions
 
----
+**Business Recommendation**
+- Prioritize cellular contacts and optimize campaign timing around peak conversion months to boost effectiveness
 
-## 📈 Key Insights
-- 📞 **Cellular** contact method had ~14% conversion, higher than **telephone** (~9%)
-- 📆 **March and August** showed the best campaign performance
-- ✅ Chi-square test showed **statistically significant** relationship between contact method and deposit conversion (p < 0.05)
-- 📊 Longer call durations generally correlated with higher conversion likelihood
+**Files Included**
+- `Marketing_Campaign_Effectiveness.ipynb` – Full notebook analysis
+- `Advanced_Marketing_Project_Interview_Questions.md` – Interview prep questions (optional)
+- `README.md` – Project overview
 
----
+**Author**  
+Prabhat Sharma  
+*Aspiring Data Analyst | Final Year CS Undergraduate*
 
-## 📁 Files Included
-| File | Description |
-|------|-------------|
-| `Marketing_Campaign_Effectiveness.ipynb` | Complete EDA, SQL-style analysis, and hypothesis testing |
-| `Advanced_Marketing_Project_Interview_Questions.pdf` | 10 advanced questions for interview prep |
-| `bank[1].csv` | Dataset (or provide link to Kaggle) |
-| `README.md` | Project summary and documentation |
-
----
-
-## 🧠 Interview-Ready Summary
-This project demonstrates data ingestion, cleaning, exploration, statistical testing, and actionable insight generation—showcasing a strong foundation in **data analytics and business communication**.
-
----
-
-## 👤 Author
-**Prabhat Sharma**  
-BSc Hons CS | Data Analyst Enthusiast  
